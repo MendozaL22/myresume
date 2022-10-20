@@ -1,0 +1,33 @@
+@font-face {
+	font-family: title;
+	src: url(roboto-medium.ttf);
+	font-weight: regular;
+}
+body {background: #c11b1f;}
+#maindiv {
+	background-color: white;
+	width: 50%;
+	margin: 2% 25.5%;
+	color: #c11b1f;
+	padding: 15px;
+	float: left;
+	position: static;
+}
+	#title{
+		font-size: 36px; 
+		font-family: title; 
+		margin-bottom: 5px;
+	}
+#name, #edu, #skill{
+		font-size: 26px; 
+		font-family: title; 
+	}
+#contact, #edu2, #skill2{
+		font-size: 14px; 
+		font-family: title; 
+		margin-bottom: 5px;
+	}
+img {
+    width:150px;
+    height: 150px;
+}
